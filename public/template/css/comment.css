@@ -1,0 +1,17 @@
+.comment-round {
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+iframe {
+    height: 700px;
+    width: 100%;
+}
+
+@media (max-width: 768px)  {
+    iframe {
+        height: 315px;        /* Viewport-relative units */
+    }
+}
+
